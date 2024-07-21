@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        .table{
+            font-size: 17px;
+         }
+        .vertical{
+          writing-mode: vertical-lr;
+          font-size: 24px;
+          margin: 15px;
+          text-orientation: upright;
+         
+        }
+        .color{
+            background-color: #00008B;
+            color: white;
+            font-size: 20px;
+        }
+        .blue{
+            background-color:#00008B ;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            text-decoration: double underline ;
+            font-size: 26px;
+            font-weight: bold;
+            color: #00008B;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MAJU Timetable</h1>
+
+    <table class="table" border="1px" align="center" cellpadding="4" cellspacing="5">
+
+     <thead>
+        <tr class="color">
+            <th>Days</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-11:30</th>
+            <th>11:30-12:30</th>
+            <th>12:30-1:30</th>
+            <th>1:30-2:00</th>
+            <th>2:00-3:00</th>
+            <th>3:00-4:00</th>
+            <th>4:15-5:30</th>
+            <th>5:35-6:55</th>
+            <th>7:00-8:00</th>
+            <th>8:00-9:00</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th class="color">Monday</th>
+            <td>Computer Networks</td>
+            <td>Computer Networks</td>
+            <td class="blue"  rowspan="6"><b class="vertical">BREAK</b></td>
+            <td>Computer Networks</td>
+            <td></td>
+            
+            <td  class="blue"  rowspan="6"><b class="vertical">LUNCH</b></td>
+            <td colspan="2">Research Methodology</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           </tr>
+
+        <tr>
+            <th class="color">Tuesday</th>
+            <td colspan="2">Compiler Construction</td>
+            <td></td>
+            <td>Artificial Intelligence- Lab</td>
+            <td colspan="2">Artificial Intelligence-Lab</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+
+        <tr>
+            <th class="color">Wednesday</th>
+            <td colspan="2">Computer Networks-Lab</td>
+            <td>Computer Networks-Lab</td>
+            <td>Internet of Things</td>
+            <td>Internet of Things</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th class="color">Thursday</th>
+            <td>Web Engineering</td>
+            <td>Web Engineering</td>
+            <td>Web Engineering</td>
+            <td></td>
+            <td colspan="2">Research Methodology</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th class="color">Friday</th>
+            <td colspan="2">Internet of Things</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="3" >Web Engineering Lab</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th class="color">Saturday</th>
+            <td colspan="2">Compiler Construction</td>
+            <td></td>
+            <td>Artificial Intelligence</td>
+            <td>Artificial Intelligence</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+    </tbody>
+
+    </table>
+    
+</body>
+</html>
